@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
 # Loading the Iris dataset from Kaggle using pandas
-iris_df = pd.read_csv("C:\\Users\\Rama Krishna\\Desktop\\iris flower\\archive\\IRIS.csv")
+iris_df = pd.read_csv("IRIS.csv")
 
 # Exploring the dataset and visualize it
 print(iris_df.head())
